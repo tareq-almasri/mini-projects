@@ -1,0 +1,231 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family:monospace;
+    color: lightskyblue;
+}
+body  { 
+    background-image: url(img/back14.jpg);
+    background-size: cover;
+    background-position-x: center;
+}
+main {
+    width: 100%;
+    min-width: 350px;
+}
+
+
+.container  {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 80vh;
+    padding: 30px;
+}
+
+#parent> .container, .containerP {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 0;
+}
+
+.content {
+    display: none;
+ 
+}
+
+
+.title {
+    
+    min-width: 350px;
+    width: 100%;
+    text-align: center;
+    font-family: 'Wallpoet', cursive;    
+    font-size: 5vh;
+    color:  #2838749e;
+    animation: shine 5s linear infinite;
+    animation-direction: alternate;
+}
+
+@keyframes shine {
+    0% {
+        background-color: #87cefa00;
+        background-image: linear-gradient(to right, rgba(0,0,0,0), #87cefa, rgba(0,0,0,0));
+   
+    }
+    50%{
+        background-color: #87cefa;
+       
+    }
+    100% {
+        background-color: #87cefa00;
+        background-image: linear-gradient(to right, #87cefa, #87cefa00, #87cefa);  
+    }
+}
+
+.title2 {
+    padding-top: 15px;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 2.5vh;
+    text-align: center;
+}
+header {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    min-width: 350px;
+}
+ul {
+    width: 40vw;
+    min-width: 350px;
+    padding: 45px 2px 0 2px;
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    font-size: 1.5em;
+}
+
+li:hover, #pp:hover {
+    cursor: pointer;
+    box-shadow: 0px 1px 0px #87cefa;
+    
+}
+#pp {
+    display: inline-block;
+    height: fit-content;
+}
+
+
+#box {
+    margin: 5px 0;
+    background-color: #87cefa3d;
+    color: lightskyblue ;
+    width: 35vw;
+    height: 45vh;
+    min-height: 300px;
+    padding: 30px 20px;
+    border:3px solid #87cefa;
+    overflow: auto;
+    min-width: 350px;
+    font-size: 16px;
+    animation: open 1s;
+      
+}
+
+@keyframes open {
+    from {
+      transform-origin: bottom left;
+      transform: scale(0);
+    }
+    to {
+        
+        transform: scale(1);
+    }
+}
+
+#box a { color:#CDDC39; }
+
+#box a:hover {
+   color: #fff;
+   text-decoration: underline;
+}
+
+#parent4 #box {
+  text-align: center;
+}
+
+a { 
+    text-decoration: none;
+    color: lightskyblue;
+    font-size: 1.5rem;
+}
+.id-pic {
+    width: 15vw;
+    min-width: 200px;
+    border: 3px solid #87cefa;
+    animation: open 2s;
+}
+.right{
+    width: 225px;
+    animation: open 2s;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 350px;
+    height: 290px;
+    animation: open 2s;
+}
+.pic1, .pic2 {
+              
+    width: 225px;
+    border: 3px solid #87cefa;
+}
+
+.pic3 {
+    
+    width: 170px;
+    border: 3px solid #87cefa;
+}
+.pic4 {
+    height: 92px;
+    width: 170px;
+    border: 3px solid #87cefa;
+}
+.pic5 {
+    
+    width: 175px;
+    border: 3px solid #87cefa;
+}
+.pic6 {
+    border: 5px dashed #87cefa;
+    width: 160px;    
+}
+.logo {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    animation: open 2s;
+}
+.logo1 { width: 100px; }
+.logo2, .logo3, .logo4 { width: 150px }
+.map {
+    width: 200px;
+    border: 3px solid #87cefa;
+    animation: open 2s;
+}
+aside {
+   text-align: center;
+   background: rgba(0, 0, 0, 0.7);
+   font-size: 1.2rem; 
+   padding: 10px;
+   animation: open 2s;
+}
+
+
+footer::before {
+    content: '';
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #87cefa, #87cefa);
+    height: 2px;
+    width: 100%;
+    min-width: 350px; 
+}
+footer {
+    padding-top: 5px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 10vh;
+    min-width: 350px;
+    font-size: 1.2em;
+}
