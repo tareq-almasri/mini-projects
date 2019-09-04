@@ -9,4 +9,4 @@
   
   **1. Portfolio:**
   the same portfolio from the orientation curse remade with a better and more clean code and updated with more Javascript and css animation.
-  to view this page [click here.](https://tareq-almasri.github.io/mini-projects/portfolio/portfolio.html target="blank")
+  to view this page [click here.](https://tareq-almasri.github.io/mini-projects/portfolio/portfolio.html)
