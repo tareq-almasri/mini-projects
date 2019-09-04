@@ -11,7 +11,7 @@ body  {
 }
 main {
     width: 100%;
-    min-width: 410px;
+    min-width: 350px;
 }
 
 
@@ -20,10 +20,10 @@ main {
     justify-content: space-evenly;
     align-items: center;
     flex-wrap: wrap;
-    min-height: 70vh;
-    padding: 30px;
+    min-height: 80vh;
+    padding: 20px;
     min-width: 350px;
-    box-sizing: content-box;
+    
 }
 
 #parent> .container, .containerP {
@@ -31,7 +31,7 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    min-height: 79vh;
+    min-height: 80vh;
     padding: 0;
 }
 
@@ -43,7 +43,7 @@ main {
 
 .title {
     
-    min-width: 355px;
+    min-width: 350px;
     width: 100%;
     text-align: center;
     font-family: 'Wallpoet', cursive;    
@@ -80,11 +80,11 @@ header {
     width: 100%;
     display: flex;
     justify-content: center;
-    min-width: 410px;
+    min-width: 350px;
 }
 ul {
     width: 40vw;
-    min-width: 355px;
+    min-width: 350px;
     padding: 45px 2px 0 2px;
     display: flex;
     justify-content: space-between;
@@ -113,7 +113,7 @@ li:hover, #pp:hover {
     padding: 30px 20px;
     border:3px solid #87cefa;
     overflow: auto;
-    min-width: 355px;
+    min-width: 320px;
     font-size: 16px;
     animation: open 1s;
       
@@ -213,14 +213,16 @@ aside {
    padding: 10px;
    animation: open 2s;
 }
-
+.filler {
+    color: transparent;
+}
 
 footer::before {
     content: '';
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #87cefa, #87cefa);
     height: 2px;
     width: 100%;
-    min-width: 410px; 
+    min-width: 350px; 
 }
 footer {
     padding-top: 5px;
@@ -228,6 +230,6 @@ footer {
     justify-content: space-around;
     flex-wrap: wrap;
     height: 10vh;
-    min-width: 410px;
+    min-width: 350px;
     font-size: 1.2em;
 }
