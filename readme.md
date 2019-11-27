@@ -9,4 +9,7 @@
   
   **1. Portfolio:**
   the same portfolio from the orientation curse remade with a better and more clean code and updated with more Javascript and css animation.
-  to view this page [click here.](https://tareq-almasri.github.io/mini-projects/portfolio/portfolio.html)
+  to view this page [click here.](https://tareq-almasri.github.io/mini-projects/portfolio/index.html)
+  **2. Flappybird:**
+  the famous "Flappybird" using html5 & vanilla js 
+  check it out [here](https://tareq-almasri.github.io/mini-projects/flappybird/index.html)
