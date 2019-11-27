@@ -12,6 +12,7 @@
   to view this page [click here.](https://tareq-almasri.github.io/mini-projects/portfolio/index.html)
   
   **2. Flappybird:**
+  
   the famous "Flappybird" using html5 & vanilla js 
   
   check it out [here](https://tareq-almasri.github.io/mini-projects/flappybird/index.html)
